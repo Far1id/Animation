@@ -1,0 +1,29 @@
+
+
+.box{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 200px auto;
+    animation-name:greenboxanimation ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes greenboxanimation {
+    0%{
+        width: 200px;
+        height: 200px;
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
